@@ -1,0 +1,250 @@
+2025-09-13 08:39:26,583 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-09-13 08:39:26,604 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.6.3\bin\user.properties
+2025-09-13 08:39:26,605 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.6.3\bin\system.properties
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: Version 5.6.3
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: java.version=23
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: os.name=Windows 11
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: os.arch=amd64
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: os.version=10.0
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: java.awt.headless=true
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-09-13 08:39:26,613 INFO o.a.j.JMeter: Available Processors =12
+2025-09-13 08:39:26,629 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-09-13 08:39:26,630 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-09-13 08:39:26,630 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.6.3
+2025-09-13 08:39:26,630 INFO o.a.j.JMeter: user.dir  =C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter
+2025-09-13 08:39:26,630 INFO o.a.j.JMeter: PWD       =C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter
+2025-09-13 08:39:26,636 INFO o.a.j.JMeter: IP: 192.168.1.6 Name: HAROLDPINEDA FullName: HAROLDPINEDA
+2025-09-13 08:39:26,644 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report'
+2025-09-13 08:39:26,646 INFO o.a.j.s.FileServer: Default base='C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter'
+2025-09-13 08:39:26,646 INFO o.a.j.s.FileServer: Set new base='C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter'
+2025-09-13 08:39:26,935 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-09-13 08:39:26,970 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-09-13 08:39:26,973 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-09-13 08:39:26,975 INFO o.a.j.s.SaveService: Loading file: fakestoreapi_test.jmx
+2025-09-13 08:39:27,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-13 08:39:27,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-13 08:39:27,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-13 08:39:27,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2025-09-13 08:39:27,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2025-09-13 08:39:27,030 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2025-09-13 08:39:27,060 INFO o.a.j.JMeter: Creating summariser <summary>
+2025-09-13 08:39:27,063 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2025-09-13 08:39:27,063 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results.jtl
+2025-09-13 08:39:27,063 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2025-09-13 08:39:27,064 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2025-09-13 08:39:27,067 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2025-09-13 08:39:27,069 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2025-09-13 08:39:27,069 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2025-09-13 08:39:27,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2025-09-13 08:39:27,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2025-09-13 08:39:27,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2025-09-13 08:39:27,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2025-09-13 08:39:27,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2025-09-13 08:39:27,070 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,075 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2025-09-13 08:39:27,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2025-09-13 08:39:27,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2025-09-13 08:39:27,076 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2025-09-13 08:39:27,077 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2025-09-13 08:39:27,077 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2025-09-13 08:39:27,077 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2025-09-13 08:39:27,093 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2025-09-13 08:39:27,095 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-13 08:39:27,095 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2025-09-13 08:39:27,112 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2025-09-13 08:39:27,112 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2025-09-13 08:39:27,186 INFO o.a.j.JMeter: Running test (1757770767186)
+2025-09-13 08:39:27,202 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : TG - 20 TPS target (50 users)
+2025-09-13 08:39:27,202 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group TG - 20 TPS target (50 users).
+2025-09-13 08:39:27,202 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2025-09-13 08:39:27,202 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=10 delayedStart=false
+2025-09-13 08:39:27,230 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2025-09-13 08:39:27,230 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2025-09-13 08:39:27,311 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-1
+2025-09-13 08:39:27,314 INFO o.a.j.s.FileServer: Stored: C:/Users/User/AUTOMATIZACIONES/PruebaTecnicaSofkakarate/jmeter/users.csv
+2025-09-13 08:39:27,356 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = HAROLDPINEDA
+2025-09-13 08:39:27,361 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2025-09-13 08:39:27,362 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2025-09-13 08:39:27,362 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2025-09-13 08:39:27,362 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2025-09-13 08:39:27,362 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2025-09-13 08:39:27,510 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-2
+2025-09-13 08:39:27,546 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2025-09-13 08:39:27,556 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2025-09-13 08:39:27,556 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2025-09-13 08:39:27,665 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2025-09-13 08:39:27,669 INFO o.a.j.u.SSLManager: KeyStore created OK
+2025-09-13 08:39:27,669 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2025-09-13 08:39:27,709 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-3
+2025-09-13 08:39:27,908 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-4
+2025-09-13 08:39:28,107 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-5
+2025-09-13 08:39:28,308 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-6
+2025-09-13 08:39:28,507 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-7
+2025-09-13 08:39:28,703 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-8
+2025-09-13 08:39:28,904 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-9
+2025-09-13 08:39:29,102 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-10
+2025-09-13 08:39:29,302 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-11
+2025-09-13 08:39:29,504 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-12
+2025-09-13 08:39:29,702 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-13
+2025-09-13 08:39:29,902 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-14
+2025-09-13 08:39:30,015 INFO o.a.j.r.Summariser: summary +     35 in 00:00:03 =   12.4/s Avg:   413 Min:   277 Max:  1087 Err:     0 (0.00%) Active: 14 Started: 14 Finished: 0
+2025-09-13 08:39:30,101 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-15
+2025-09-13 08:39:30,300 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-16
+2025-09-13 08:39:30,499 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-17
+2025-09-13 08:39:30,699 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-18
+2025-09-13 08:39:30,899 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-19
+2025-09-13 08:39:31,098 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-20
+2025-09-13 08:39:31,297 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-21
+2025-09-13 08:39:31,497 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-22
+2025-09-13 08:39:31,696 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-23
+2025-09-13 08:39:31,896 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-24
+2025-09-13 08:39:32,095 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-25
+2025-09-13 08:39:32,294 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-26
+2025-09-13 08:39:32,494 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-27
+2025-09-13 08:39:32,694 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-28
+2025-09-13 08:39:32,893 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-29
+2025-09-13 08:39:33,093 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-30
+2025-09-13 08:39:33,295 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-31
+2025-09-13 08:39:33,495 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-32
+2025-09-13 08:39:33,692 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-33
+2025-09-13 08:39:33,893 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-34
+2025-09-13 08:39:34,092 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-35
+2025-09-13 08:39:34,291 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-36
+2025-09-13 08:39:34,490 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-37
+2025-09-13 08:39:34,690 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-38
+2025-09-13 08:39:34,889 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-39
+2025-09-13 08:39:35,088 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-40
+2025-09-13 08:39:35,290 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-41
+2025-09-13 08:39:35,489 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-42
+2025-09-13 08:39:35,689 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-43
+2025-09-13 08:39:35,888 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-44
+2025-09-13 08:39:36,088 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-45
+2025-09-13 08:39:36,286 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-46
+2025-09-13 08:39:36,485 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-47
+2025-09-13 08:39:36,686 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-48
+2025-09-13 08:39:36,884 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-49
+2025-09-13 08:39:37,085 INFO o.a.j.t.JMeterThread: Thread started: TG - 20 TPS target (50 users) 1-50
+2025-09-13 08:40:00,104 INFO o.a.j.r.Summariser: summary +    629 in 00:00:30 =   20.9/s Avg:   302 Min:   269 Max:   772 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2025-09-13 08:40:00,105 INFO o.a.j.r.Summariser: summary =    664 in 00:00:33 =   20.2/s Avg:   308 Min:   269 Max:  1087 Err:     0 (0.00%)
+2025-09-13 08:40:30,009 INFO o.a.j.r.Summariser: summary +    597 in 00:00:30 =   20.0/s Avg:   296 Min:   268 Max:   584 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2025-09-13 08:40:30,010 INFO o.a.j.r.Summariser: summary =   1261 in 00:01:03 =   20.1/s Avg:   303 Min:   268 Max:  1087 Err:     0 (0.00%)
+2025-09-13 08:41:00,079 INFO o.a.j.r.Summariser: summary +    603 in 00:00:30 =   20.1/s Avg:   302 Min:   268 Max:   695 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2025-09-13 08:41:00,080 INFO o.a.j.r.Summariser: summary =   1864 in 00:01:33 =   20.1/s Avg:   303 Min:   268 Max:  1087 Err:     0 (0.00%)
+2025-09-13 08:41:25,077 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-6
+2025-09-13 08:41:25,098 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-32
+2025-09-13 08:41:25,227 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-41
+2025-09-13 08:41:25,335 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-26
+2025-09-13 08:41:25,371 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-33
+2025-09-13 08:41:25,385 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-21
+2025-09-13 08:41:25,494 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-42
+2025-09-13 08:41:25,504 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-10
+2025-09-13 08:41:25,521 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-4
+2025-09-13 08:41:25,589 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-13
+2025-09-13 08:41:25,623 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-17
+2025-09-13 08:41:25,633 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-27
+2025-09-13 08:41:25,711 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-34
+2025-09-13 08:41:25,748 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-43
+2025-09-13 08:41:25,952 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-22
+2025-09-13 08:41:25,980 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-44
+2025-09-13 08:41:25,983 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-35
+2025-09-13 08:41:26,137 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-28
+2025-09-13 08:41:26,246 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-45
+2025-09-13 08:41:26,338 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-14
+2025-09-13 08:41:26,352 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-11
+2025-09-13 08:41:26,365 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-8
+2025-09-13 08:41:26,368 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-2
+2025-09-13 08:41:26,381 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-36
+2025-09-13 08:41:26,388 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-18
+2025-09-13 08:41:26,474 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-46
+2025-09-13 08:41:26,491 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-29
+2025-09-13 08:41:26,492 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-23
+2025-09-13 08:41:26,632 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-37
+2025-09-13 08:41:26,666 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-47
+2025-09-13 08:41:26,785 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-30
+2025-09-13 08:41:26,851 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-3
+2025-09-13 08:41:26,872 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-1
+2025-09-13 08:41:26,903 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-7
+2025-09-13 08:41:26,933 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-38
+2025-09-13 08:41:26,941 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-19
+2025-09-13 08:41:26,943 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-24
+2025-09-13 08:41:26,956 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-48
+2025-09-13 08:41:27,091 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-15
+2025-09-13 08:41:27,163 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-39
+2025-09-13 08:41:27,174 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-49
+2025-09-13 08:41:27,310 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-31
+2025-09-13 08:41:27,310 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-31
+2025-09-13 08:41:27,374 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-5
+2025-09-13 08:41:27,375 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-5
+2025-09-13 08:41:27,393 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-12
+2025-09-13 08:41:27,393 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-12
+2025-09-13 08:41:27,396 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-50
+2025-09-13 08:41:27,396 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-50
+2025-09-13 08:41:27,414 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-9
+2025-09-13 08:41:27,416 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-9
+2025-09-13 08:41:27,444 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-40
+2025-09-13 08:41:27,444 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-40
+2025-09-13 08:41:27,453 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-25
+2025-09-13 08:41:27,453 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-25
+2025-09-13 08:41:27,495 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-20
+2025-09-13 08:41:27,496 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-20
+2025-09-13 08:41:27,498 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: TG - 20 TPS target (50 users) 1-16
+2025-09-13 08:41:27,498 INFO o.a.j.t.JMeterThread: Thread finished: TG - 20 TPS target (50 users) 1-16
+2025-09-13 08:41:27,499 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2025-09-13 08:41:27,499 INFO o.a.j.s.FileServer: Close: C:/Users/User/AUTOMATIZACIONES/PruebaTecnicaSofkakarate/jmeter/users.csv
+2025-09-13 08:41:27,501 INFO o.a.j.r.Summariser: summary +    550 in 00:00:27 =   20.1/s Avg:   292 Min:   270 Max:   318 Err:     0 (0.00%) Active: 0 Started: 50 Finished: 50
+2025-09-13 08:41:27,501 INFO o.a.j.r.Summariser: summary =   2414 in 00:02:00 =   20.1/s Avg:   300 Min:   268 Max:  1087 Err:     0 (0.00%)
+2025-09-13 08:41:27,503 INFO o.a.j.JMeter: Generating Dashboard
+2025-09-13 08:41:27,503 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2025-09-13 08:41:27,512 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2025-09-13 08:41:27,675 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2025-09-13 08:41:27,675 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2025-09-13 08:41:27,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2025-09-13 08:41:27,681 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2025-09-13 08:41:27,689 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2025-09-13 08:41:27,692 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2025-09-13 08:41:27,693 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2025-09-13 08:41:27,693 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2025-09-13 08:41:27,743 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2025-09-13 08:41:27,743 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2025-09-13 08:41:27,744 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2025-09-13 08:41:27,744 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2025-09-13 08:41:27,778 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2025-09-13 08:41:27,778 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 16898 samples
+2025-09-13 08:41:27,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2025-09-13 08:41:27,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2025-09-13 08:41:27,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2025-09-13 08:41:27,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2025-09-13 08:41:27,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2025-09-13 08:41:27,779 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2025-09-13 08:41:27,780 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2025-09-13 08:41:27,781 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2025-09-13 08:41:27,781 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2025-09-13 08:41:27,781 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2025-09-13 08:41:27,781 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 36210 samples
+2025-09-13 08:41:27,781 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 7242 samples
+2025-09-13 08:41:27,781 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 2414 samples
+2025-09-13 08:41:27,782 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 2414 samples produced in 238ms on channel 0
+2025-09-13 08:41:27,782 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2025-09-13 08:41:27,901 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2025-09-13 08:41:27,901 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2025-09-13 08:41:27,902 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2025-09-13 08:41:27,902 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2025-09-13 08:41:27,903 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report\statistics.json
+2025-09-13 08:41:27,953 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2025-09-13 08:41:27,955 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report
+2025-09-13 08:41:28,041 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report, creating folder structure
+2025-09-13 08:41:28,045 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report', got message: C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report, found non empty folder with following content [C:\Users\User\AUTOMATIZACIONES\PruebaTecnicaSofkakarate\jmeter\.\report\statistics.json], will be ignored
+2025-09-13 08:41:28,433 INFO o.a.j.JMeter: Dashboard generated

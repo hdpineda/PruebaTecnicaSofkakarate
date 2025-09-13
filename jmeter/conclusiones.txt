@@ -1,0 +1,4 @@
+conclusiones:
+- se realizo la ejecución de la prueba obteniendo resultados favorables, 
+las peticiones fueron respondidas por debajo de 1500 ms y la taza de error 
+fue de cero. de esta manera cumpliendo con el criterio de aceptacion establecido

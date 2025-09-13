@@ -1,0 +1,15 @@
+conclusiones:
+Cobertura del ejercicio:
+   - Se automatizó el flujo completo solicitado:
+     * Alta de mascota (POST /pet)
+     * Consulta por ID (GET /pet/{petId})
+     * Actualización de nombre y estatus a "sold" (PUT /pet)
+     * Búsqueda por estatus (GET /pet/findByStatus)
+
+Resultados clave:
+   - Validaciones de código 200 en todos los pasos.
+   - El ID generado aleatoriamente evita colisiones.
+   - La búsqueda por estatus retornó la mascota con el nombre actualizado y estatus "sold".
+
+observaciones o hallazgos:
+   - Al ejecutar se puede presentar que el servicio get no encuentre el registro anteriormente creado por el post, el tiempo de creacion es mayor a el tiempo que el robot realiza la consulta con el get

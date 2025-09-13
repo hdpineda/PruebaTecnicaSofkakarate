@@ -1,0 +1,522 @@
+-------------------------------------------------------------------------------
+Test set: sofka.petstore.PetStoreRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.136 s <<< FAILURE! -- in sofka.petstore.PetStoreRunner
+sofka/petstore/petstore.[1:41] Flujo completo - Añadir, Consultar por ID, Actualizar, Consultar por estatus -- Time elapsed: 4.313 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - 794 (LIST:NUMBER)
+  [9223372036854775608,9223372036854775638,12084391,1757669599403,5555,1757669774581,1757669830321,1757669916003,303,1757671237489,3580616,1344,2649,2922,1757676178386,3981,922337203685477590,7597,2975,97,126,1347,2393,1757681688892,18,699612136,5287,1757684306606,2105,7489,8305,904443,131844,3857855,1689825,276819,1964,3120,1757689510859,602957,3379,8866,401,1757696967298,1757697089093,1757697337773,12354,12353,12359,56331470,5001,12349,91507602,3708840,1880,1757702654625,24093935,102,9,83382,74408294,156172,98765,16,831435,33377689,177442,62751340,90369791,23327731,76621170,1711982,24364310,24572652,777123,87705905,2022000,82188160,70119872,51338511,71551342,1234,99999,1757713572257,1757713575287,1757713583694,1002,202,1757714287042,36872199,49199499,13,62348053,360,1234567890,135,549,1778576058,962595811,570,1]
+  794
+
+    $[100] | not equal (NUMBER:NUMBER)
+    1
+    794
+
+    $[99] | not equal (NUMBER:NUMBER)
+    570
+    794
+
+    $[98] | not equal (NUMBER:NUMBER)
+    962595811
+    794
+
+    $[97] | not equal (NUMBER:NUMBER)
+    1778576058
+    794
+
+    $[96] | not equal (NUMBER:NUMBER)
+    549
+    794
+
+    $[95] | not equal (NUMBER:NUMBER)
+    135
+    794
+
+    $[94] | not equal (NUMBER:NUMBER)
+    1234567890
+    794
+
+    $[93] | not equal (NUMBER:NUMBER)
+    360
+    794
+
+    $[92] | not equal (NUMBER:NUMBER)
+    62348053
+    794
+
+    $[91] | not equal (NUMBER:NUMBER)
+    13
+    794
+
+    $[90] | not equal (NUMBER:NUMBER)
+    49199499
+    794
+
+    $[89] | not equal (NUMBER:NUMBER)
+    36872199
+    794
+
+    $[88] | not equal (NUMBER:NUMBER)
+    1757714287042
+    794
+
+    $[87] | not equal (NUMBER:NUMBER)
+    202
+    794
+
+    $[86] | not equal (NUMBER:NUMBER)
+    1002
+    794
+
+    $[85] | not equal (NUMBER:NUMBER)
+    1757713583694
+    794
+
+    $[84] | not equal (NUMBER:NUMBER)
+    1757713575287
+    794
+
+    $[83] | not equal (NUMBER:NUMBER)
+    1757713572257
+    794
+
+    $[82] | not equal (NUMBER:NUMBER)
+    99999
+    794
+
+    $[81] | not equal (NUMBER:NUMBER)
+    1234
+    794
+
+    $[80] | not equal (NUMBER:NUMBER)
+    71551342
+    794
+
+    $[79] | not equal (NUMBER:NUMBER)
+    51338511
+    794
+
+    $[78] | not equal (NUMBER:NUMBER)
+    70119872
+    794
+
+    $[77] | not equal (NUMBER:NUMBER)
+    82188160
+    794
+
+    $[76] | not equal (NUMBER:NUMBER)
+    2022000
+    794
+
+    $[75] | not equal (NUMBER:NUMBER)
+    87705905
+    794
+
+    $[74] | not equal (NUMBER:NUMBER)
+    777123
+    794
+
+    $[73] | not equal (NUMBER:NUMBER)
+    24572652
+    794
+
+    $[72] | not equal (NUMBER:NUMBER)
+    24364310
+    794
+
+    $[71] | not equal (NUMBER:NUMBER)
+    1711982
+    794
+
+    $[70] | not equal (NUMBER:NUMBER)
+    76621170
+    794
+
+    $[69] | not equal (NUMBER:NUMBER)
+    23327731
+    794
+
+    $[68] | not equal (NUMBER:NUMBER)
+    90369791
+    794
+
+    $[67] | not equal (NUMBER:NUMBER)
+    62751340
+    794
+
+    $[66] | not equal (NUMBER:NUMBER)
+    177442
+    794
+
+    $[65] | not equal (NUMBER:NUMBER)
+    33377689
+    794
+
+    $[64] | not equal (NUMBER:NUMBER)
+    831435
+    794
+
+    $[63] | not equal (NUMBER:NUMBER)
+    16
+    794
+
+    $[62] | not equal (NUMBER:NUMBER)
+    98765
+    794
+
+    $[61] | not equal (NUMBER:NUMBER)
+    156172
+    794
+
+    $[60] | not equal (NUMBER:NUMBER)
+    74408294
+    794
+
+    $[59] | not equal (NUMBER:NUMBER)
+    83382
+    794
+
+    $[58] | not equal (NUMBER:NUMBER)
+    9
+    794
+
+    $[57] | not equal (NUMBER:NUMBER)
+    102
+    794
+
+    $[56] | not equal (NUMBER:NUMBER)
+    24093935
+    794
+
+    $[55] | not equal (NUMBER:NUMBER)
+    1757702654625
+    794
+
+    $[54] | not equal (NUMBER:NUMBER)
+    1880
+    794
+
+    $[53] | not equal (NUMBER:NUMBER)
+    3708840
+    794
+
+    $[52] | not equal (NUMBER:NUMBER)
+    91507602
+    794
+
+    $[51] | not equal (NUMBER:NUMBER)
+    12349
+    794
+
+    $[50] | not equal (NUMBER:NUMBER)
+    5001
+    794
+
+    $[49] | not equal (NUMBER:NUMBER)
+    56331470
+    794
+
+    $[48] | not equal (NUMBER:NUMBER)
+    12359
+    794
+
+    $[47] | not equal (NUMBER:NUMBER)
+    12353
+    794
+
+    $[46] | not equal (NUMBER:NUMBER)
+    12354
+    794
+
+    $[45] | not equal (NUMBER:NUMBER)
+    1757697337773
+    794
+
+    $[44] | not equal (NUMBER:NUMBER)
+    1757697089093
+    794
+
+    $[43] | not equal (NUMBER:NUMBER)
+    1757696967298
+    794
+
+    $[42] | not equal (NUMBER:NUMBER)
+    401
+    794
+
+    $[41] | not equal (NUMBER:NUMBER)
+    8866
+    794
+
+    $[40] | not equal (NUMBER:NUMBER)
+    3379
+    794
+
+    $[39] | not equal (NUMBER:NUMBER)
+    602957
+    794
+
+    $[38] | not equal (NUMBER:NUMBER)
+    1757689510859
+    794
+
+    $[37] | not equal (NUMBER:NUMBER)
+    3120
+    794
+
+    $[36] | not equal (NUMBER:NUMBER)
+    1964
+    794
+
+    $[35] | not equal (NUMBER:NUMBER)
+    276819
+    794
+
+    $[34] | not equal (NUMBER:NUMBER)
+    1689825
+    794
+
+    $[33] | not equal (NUMBER:NUMBER)
+    3857855
+    794
+
+    $[32] | not equal (NUMBER:NUMBER)
+    131844
+    794
+
+    $[31] | not equal (NUMBER:NUMBER)
+    904443
+    794
+
+    $[30] | not equal (NUMBER:NUMBER)
+    8305
+    794
+
+    $[29] | not equal (NUMBER:NUMBER)
+    7489
+    794
+
+    $[28] | not equal (NUMBER:NUMBER)
+    2105
+    794
+
+    $[27] | not equal (NUMBER:NUMBER)
+    1757684306606
+    794
+
+    $[26] | not equal (NUMBER:NUMBER)
+    5287
+    794
+
+    $[25] | not equal (NUMBER:NUMBER)
+    699612136
+    794
+
+    $[24] | not equal (NUMBER:NUMBER)
+    18
+    794
+
+    $[23] | not equal (NUMBER:NUMBER)
+    1757681688892
+    794
+
+    $[22] | not equal (NUMBER:NUMBER)
+    2393
+    794
+
+    $[21] | not equal (NUMBER:NUMBER)
+    1347
+    794
+
+    $[20] | not equal (NUMBER:NUMBER)
+    126
+    794
+
+    $[19] | not equal (NUMBER:NUMBER)
+    97
+    794
+
+    $[18] | not equal (NUMBER:NUMBER)
+    2975
+    794
+
+    $[17] | not equal (NUMBER:NUMBER)
+    7597
+    794
+
+    $[16] | not equal (NUMBER:NUMBER)
+    922337203685477590
+    794
+
+    $[15] | not equal (NUMBER:NUMBER)
+    3981
+    794
+
+    $[14] | not equal (NUMBER:NUMBER)
+    1757676178386
+    794
+
+    $[13] | not equal (NUMBER:NUMBER)
+    2922
+    794
+
+    $[12] | not equal (NUMBER:NUMBER)
+    2649
+    794
+
+    $[11] | not equal (NUMBER:NUMBER)
+    1344
+    794
+
+    $[10] | not equal (NUMBER:NUMBER)
+    3580616
+    794
+
+    $[9] | not equal (NUMBER:NUMBER)
+    1757671237489
+    794
+
+    $[8] | not equal (NUMBER:NUMBER)
+    303
+    794
+
+    $[7] | not equal (NUMBER:NUMBER)
+    1757669916003
+    794
+
+    $[6] | not equal (NUMBER:NUMBER)
+    1757669830321
+    794
+
+    $[5] | not equal (NUMBER:NUMBER)
+    1757669774581
+    794
+
+    $[4] | not equal (NUMBER:NUMBER)
+    5555
+    794
+
+    $[3] | not equal (NUMBER:NUMBER)
+    1757669599403
+    794
+
+    $[2] | not equal (NUMBER:NUMBER)
+    12084391
+    794
+
+    $[1] | not equal (NUMBER:NUMBER)
+    9223372036854775638
+    794
+
+    $[0] | not equal (NUMBER:NUMBER)
+    9223372036854775608
+    794
+
+classpath:sofka/petstore/petstore.feature:80
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:38)
+	at org.junit.jupiter.api.Assertions.fail(Assertions.java:135)
+	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:53)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:167)
+	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:184)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:60)
+	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:32)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
+	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:67)
+	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:226)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:204)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:108)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:95)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:56)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:184)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:148)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:122)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+
