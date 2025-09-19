@@ -1,15 +1,26 @@
-conclusiones:
-Cobertura del ejercicio:
-   - Se automatizó el flujo completo solicitado:
-     * Alta de mascota (POST /pet)
-     * Consulta por ID (GET /pet/{petId})
-     * Actualización de nombre y estatus a "sold" (PUT /pet)
-     * Búsqueda por estatus (GET /pet/findByStatus)
+CONCLUSIONES - Prueba Técnica Sofka con Karate
 
-Resultados clave:
-   - Validaciones de código 200 en todos los pasos.
-   - El ID generado aleatoriamente evita colisiones.
-   - La búsqueda por estatus retornó la mascota con el nombre actualizado y estatus "sold".
+1. FUNCIONALIDAD DE LA PETSTORE
 
-observaciones o hallazgos:
-   - Al ejecutar se puede presentar que el servicio get no encuentre el registro anteriormente creado por el post, el tiempo de creacion es mayor a el tiempo que el robot realiza la consulta con el get
+- La API pública de Swagger PetStore permite realizar operaciones CRUD sobre mascotas.
+- Durante las pruebas se observó que el endpoint no siempre garantiza persistencia inmediata.
+- Consultas por estatus (`/pet/findByStatus`) pueden no devolver los registros recién actualizados, lo que genera falsos negativos.
+
+2. PROBLEMAS ENCONTRADOS
+
+- **Sincronización**: tras crear o actualizar una mascota, algunas veces el GET por ID o por estatus devuelve 404 o no incluye el registro esperado.
+- **Latencia**: la API presenta retrasos intermitentes en la propagación de datos.
+
+3. MEJORAS IMPLEMENTADAS
+
+- Se implementó **retry until** para manejar la latencia y consistencia eventual.
+- Se separaron **features de utilidades** (ejemplo: `utils/retry.feature`) para mayor organización.
+- Se incluyeron **tests data-driven** para probar múltiples combinaciones de entradas.
+- Se configuraron **environments múltiples** (`dev`, `mock`) para soportar tanto la PetStore real como posibles ambientes simulados.
+- Se etiquetaron los escenarios para facilitar la ejecución selectiva y manejo de casos inestables.
+
+
+4. CONCLUSIÓN GENERAL
+
+Karate resultó ser una herramienta adecuada para la automatización de APIs REST, con sintaxis simple y soporte integrado para validaciones, JSON, reintentos y reportes.  
+El mayor reto fue la inestabilidad de la API PetStore pública, lo cual se mitigó con reintentos y buenas prácticas.

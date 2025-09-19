@@ -9,9 +9,12 @@
 2) Desde la raíz del proyecto, verificar dependencias:
    mvn -v
 
+
+
 ## Ejecución de pruebas
-- Opción 1 (Maven):
-  mvn test
+- Opción 1 (Maven): ejecucion por env
+  mvn test -Dkarate.env=dev
+  mvn test -Dkarate.env=qa -Dci=true
 
 - Opción 2 (scripts): (desde la carpeta raiz)
   - Windows:

@@ -1,0 +1,5 @@
+[
+  { "id": 701, "name": "pipo", "status": "available" },
+  { "id": 702, "name": "mora", "status": "pending"  },
+  { "id": 703, "name": "tito", "status": "sold"     }
+]
